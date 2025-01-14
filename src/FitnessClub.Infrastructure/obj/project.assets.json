@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FitnessClub.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FitnessClub.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FitnessClub.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FitnessClub.Application.dll": {}
+        }
+      },
+      "FitnessClub.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FitnessClub.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FitnessClub.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FitnessClub.Application/1.0.0": {
+      "type": "project",
+      "path": "../FitnessClub.Application/FitnessClub.Application.csproj",
+      "msbuildProject": "../FitnessClub.Application/FitnessClub.Application.csproj"
+    },
+    "FitnessClub.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FitnessClub.Domain/FitnessClub.Domain.csproj",
+      "msbuildProject": "../FitnessClub.Domain/FitnessClub.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "FitnessClub.Application >= 1.0.0",
+      "FitnessClub.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Infrastructure\\FitnessClub.Infrastructure.csproj",
+      "projectName": "FitnessClub.Infrastructure",
+      "projectPath": "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Infrastructure\\FitnessClub.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Application\\FitnessClub.Application.csproj": {
+              "projectPath": "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Application\\FitnessClub.Application.csproj"
+            },
+            "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Domain\\FitnessClub.Domain.csproj": {
+              "projectPath": "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Domain\\FitnessClub.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
