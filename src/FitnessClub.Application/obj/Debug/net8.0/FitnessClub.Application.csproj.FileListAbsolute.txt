@@ -1,0 +1,16 @@
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\bin\Debug\net8.0\FitnessClub.Application.deps.json
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\bin\Debug\net8.0\FitnessClub.Application.dll
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\bin\Debug\net8.0\FitnessClub.Application.pdb
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\bin\Debug\net8.0\FitnessClub.Domain.dll
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\bin\Debug\net8.0\FitnessClub.Domain.pdb
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.csproj.AssemblyReference.cache
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.AssemblyInfoInputs.cache
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.AssemblyInfo.cs
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.csproj.CoreCompileInputs.cache
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.sourcelink.json
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessC.5A1AFC04.Up2Date
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.dll
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\refint\FitnessClub.Application.dll
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\FitnessClub.Application.pdb
+C:\Users\Nobilis\RiderProjects\FitnessClub\src\FitnessClub.Application\obj\Debug\net8.0\ref\FitnessClub.Application.dll

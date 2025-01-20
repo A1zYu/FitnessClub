@@ -1,0 +1,6 @@
+﻿services:
+  fitnessclub.web:
+    image: fitnessclub.web
+    build:
+      context: .
+      dockerfile: src/FitnessClub.Web/Dockerfile

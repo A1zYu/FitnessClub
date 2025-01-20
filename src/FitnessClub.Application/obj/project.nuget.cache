@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "13gtGdWI2QI=",
+  "dgSpecHash": "MFu4mD5INpM=",
   "success": true,
-  "projectFilePath": "C:\\Web Projects\\FitnessClub\\src\\FitnessClub.Application\\FitnessClub.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Nobilis\\RiderProjects\\FitnessClub\\src\\FitnessClub.Application\\FitnessClub.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nobilis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

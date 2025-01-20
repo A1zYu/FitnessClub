@@ -1,11 +1,17 @@
+using FitnessClub.Application;
+using FitnessClub.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//database 
+builder.Services.AddInfrastructures(builder.Configuration);
+builder.Services.AddApplications();
 
 var app = builder.Build();
 
