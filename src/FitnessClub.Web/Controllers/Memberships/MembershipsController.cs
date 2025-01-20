@@ -1,4 +1,5 @@
-﻿using FitnessClub.Application.Memberships;
+﻿using FitnessClub.Application.Dtos;
+using FitnessClub.Application.Memberships;
 using FitnessClub.Application.Memberships.Commands.AddMembership;
 using FitnessClub.Application.Memberships.Commands.Delete;
 using FitnessClub.Domain;
@@ -64,5 +65,22 @@ public class MembershipsController : ControllerBase
         membership.Update(request.Name,request.Description,request.Price,request.Type,request.Days);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
         return Ok();
+    }
+
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetInfo([FromRoute] Guid id,CancellationToken ct)
+    {
+        var membership =await _membershipRepository.GetById(id, ct);
+        if (membership is null)
+        {
+            return NotFound();
+        }
+        var membershipDto = new MembershipDto(
+            membership.Name,
+            membership.Description,
+            membership.Price,
+            membership.Type,
+            membership.Days);
+        return Ok(membershipDto);
     }
 }
